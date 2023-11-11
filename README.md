@@ -1,6 +1,6 @@
 # Simple-Loader
 This was created because I was bored and it's in my opinion better than all these skids out here using stand launch pad for their menu's
-#Instructions
+# Instructions
 Change URL and DLL_LOCATION in pch.h
 Build in Release
 # THIS DOES NOT HAVE ANY SECURITY OR AUTH
