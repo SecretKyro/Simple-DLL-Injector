@@ -11,7 +11,7 @@ int main() {
         LOG(Info, "Enter your password");
         getline(cin, Password); // Basicly grabs what the user typed in
 
-        Authed = (UserName == "Kyro" || Password == "Kyro");
+        Authed = (UserName == "Kyro" && Password == "Kyro");
 
         if (Authed) { // Basicly just means that they passed your auth check
             LOG(Success, "Welcome {}!", UserName);
